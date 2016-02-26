@@ -1,4 +1,5 @@
-
+my $err1;
+my $err2;
 if ($rt==JT::FALSE) {
             put_log('ERROR',"\nVerification failed before doing failover...\n");
             $clear->();
@@ -7,3 +8,5 @@ if ($rt==JT::FALSE) {
             return JT::FALSE;
         }    
 end 
+
+
